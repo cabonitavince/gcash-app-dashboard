@@ -9,7 +9,7 @@ class HomeAppBar extends StatelessWidget {
 
     return Container(
       color: Colors.white,
-      padding: EdgeInsets.only(left: 10, right: 10, top: 50, bottom: 15),
+      padding: EdgeInsets.only(left: 10, right: 10, top: 50),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -40,7 +40,7 @@ class HomeAppBar extends StatelessWidget {
                 SizedBox(height: 10,),
                 Row(
                   children: [
-                    Text("₱ 1,255,999.25", style: TextStyle(color: Colors.white, fontSize: 25,
+                    Text("P 1,255,999.25", style: TextStyle(color: Colors.white, fontSize: 25,
                         fontWeight: FontWeight.w900),),
                     Expanded(child: SizedBox()),
                     Container(

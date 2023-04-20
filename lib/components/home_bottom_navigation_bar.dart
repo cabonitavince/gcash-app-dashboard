@@ -16,6 +16,8 @@ class _HomeBottomNavigationBarState extends State<HomeBottomNavigationBar> {
       type: BottomNavigationBarType.fixed,
       selectedFontSize: 10,
       unselectedFontSize: 10,
+      elevation: 0,
+
       items: [
         BottomNavigationBarItem(
             icon: Icon(Icons.home_outlined),
